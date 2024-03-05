@@ -15,13 +15,16 @@ This project aims to redesign the user interface of Netflix, creating a modern a
 9. Create a Video slot on your page.
 
 ## Folder Structure
-
-- **images**: Contains images of movies.
-- **index.html**: Main HTML file.
-- **style.css**: CSS file for styling.
-- **app.js**: JavaScript file for functionality.
+- **styles** (folder): CSS files for styling.
+- **Scripts** (folder): JavaScript files for functionality.
 
 ## Some Screen-shots
+![image](https://github.com/RB-Younes/Netflix-redesign-ui/assets/108153787/8fb5a6a6-be88-4568-a6d5-3c04c84dfeb4)
+![image](https://github.com/RB-Younes/Netflix-redesign-ui/assets/108153787/1a9e435b-cc2d-4cc4-83f9-214ec306b088)
+![image](https://github.com/RB-Younes/Netflix-redesign-ui/assets/108153787/be0ad00b-cf9c-48e8-9774-031a63057f6d)
+![image](https://github.com/RB-Younes/Netflix-redesign-ui/assets/108153787/950c71a1-83c8-49ab-ac38-f2780cc11e11)
+![image](https://github.com/RB-Younes/Netflix-redesign-ui/assets/108153787/2ee3bece-c6a1-4c51-b893-c8a33e952633)
+
 
 
 

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title >Netflix YounLand - Watch TV Shows Online, Watch Movies Online</title>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+
+
+    <link rel="shortcut icon" href="Logos/nficon2023.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/navigation_bar.css">
+    <link rel="stylesheet" href="styles/mainpage_style.css">
+    <link rel="stylesheet" href="styles/TV-shows.css">    
+    <link rel="stylesheet" href="styles/news_style.css"> 
+    <link rel="stylesheet" href="styles/light_btn_style.css"> 
+  </header>
+  <body>
+    <div id="BG" class="background-container fade-in-background"></div>
+
+    <div id="head" class="header">
+        <div class="left-sec">
+            <img style="width: 150px; margin-right: 50px; cursor: pointer;" src="logos/Logonetflix.png" alt="">
+        
+            <button class="btns-h-hovered" id="Home">Home</button>
+            <button class="btns-h-long" id="TV-Shows">TV Shows</button>
+            <button class="btns-h" id="Movies">Movies</button>
+            <button class="btns-h" id="Latest">Latest</button>
+            <button class="btns-h-long" id="My-List">My List</button>
+        </div>
+                  
+        <div class="right-sec">
+            <button class="btns-h-search"></button>
+            <button class="btns-h-avatar"></button>
+            <div class="profile-cont">
+              <div class="profile">Profile 01</div>
+            </div>
+            <div  class="dark_light">
+              <label class="switch">
+                <input id="Light" type="checkbox">
+                <span class="slider"></span>
+              </label>
+            </div>
+            <button class="btns-h" id="News">News</button>
+        </div> 
+    </div>
+            
+
+    <div id="cont-home" class="content-home">
+        <div id="cont-home-desc">
+          <img id="f-logo" class="film-logo fade-in" src="movies logos/The-sinner-tv-logo-removebg-preview.png" alt=""> 
+
+          <div id="ds-cont" class="desc-cont">
+            <h1 id="film-title" class="film-title fade-in">
+              The Sinner
+            </h1>
+            <div id="Tags" class="Tags fade-in">
+              2017 | Maturity Rating:16+ | 4 Seasons | Thriller
+            </div>
+           <div id="desc" class="desc fade-in">
+            In a small New York town, a haunted detective hunts for answers about perplexing crimes while wrestling with his own demons.
+           </div>
+           <div class="author fade-in">
+            <div style="display: flex; flex-direction: row;">
+              <p id="supp1" style=" color: rgb(180, 180, 180);">Starring:</p> <p id="supp3" id="Starring" style="margin-left: 7px;">Bill Pullman, Jessica Biel, Carrie Coon</p> 
+            </div>
+            <div style="display: flex; flex-direction: row;">
+              <p id="supp2" style=" color: rgb(180, 180, 180);">Creators:</p><p id="supp4" id="Creators"  style="margin-left: 7px;">Derek Simonds</p>
+            </div>
+
+           </div>
+
+          </div>
+        </div>
+
+      <div class="container-btns-home">
+        <div style="display: flex; flex-direction: row;">
+          <button id="play-btn" class="play fade-in">
+            <img style="padding-right: 10px;" src="logos/btns/white mode/play-button-arrowhead.png" alt=""> Play
+          </button>
+          <button id="info-btn" class="More-info fade-in">
+            <img style="padding-right: 10px;" src="logos/btns/white mode/info-button(1).png" alt=""> More Info
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroller-container">
+      <img id="carousel-btn" src="logos/btns/dark mode/carousel(1).png" alt="" onClick="reply_click(this.id)">
+    </div>
+
+    <div class="nd2page" id="nd2page">
+      
+      <div class="TV-shows-cont" id="TV-shows-cont">
+        <div class="title-TVshows">
+            TV Shows
+        </div>
+        <div>
+
+        </div>
+        <div class="TVS-grid">
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 01.png" alt="">
+              <div class="name">
+                American Nightmare
+              </div>
+              <div class="year">
+                2024
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 02.png" alt="">
+              <div class="name">
+                Fool Me Once
+              </div>
+              <div class="year">
+                2024
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 03.png" alt="">
+              <div class="name">
+                Yellowstone
+              </div>
+              <div class="year">
+                2018
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 04.png" alt="">
+              <div class="name">
+                Demon Slayer
+              </div>
+              <div class="year">
+                2019
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 05.png" alt="">
+              <div class="name">
+                Welcome to Samdal-ri
+              </div>
+              <div class="year">
+                2023
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 06.png" alt="">
+              <div class="name">
+                My Demon
+              </div>
+              <div class="year">
+                2023
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 07.png" alt="">
+              <div class="name">
+                Berlin
+              </div>
+              <div class="year">
+                2023 
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 08.png" alt="">
+              <div class="name">
+                Delicious in Dungeon
+              </div>
+              <div class="year">
+                2024
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="TV-shows-cont" id="TV-shows-cont">
+        <div class="title-MVS">
+            Movies
+        </div>
+        <div class="MVS-grid">
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 01.png" alt="">
+              <div class="name">
+                All Quiet on the Western
+              </div>
+              <div class="year">
+                2022 
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 02.png" alt="">
+              <div class="name">
+                ALien
+              </div>
+              <div class="year">
+                1987
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 03.png" alt="">
+              <div class="name">
+                Joker
+              </div>
+              <div class="year">
+                2019
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 04.png" alt="">
+              <div class="name">
+                Uncharted
+              </div>
+              <div class="year">
+                2022
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 05.png" alt="">
+              <div class="name">
+                Life
+              </div>
+              <div class="year">
+                2017
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 06.png" alt="">
+              <div class="name">
+                Dune
+              </div>
+              <div class="year">
+                2022
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 07.png" alt="">
+              <div class="name">
+                Gravity
+              </div>
+              <div class="year">
+                2013 
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 08.png" alt="">
+              <div class="name">
+                Blade runner 2049
+              </div>
+              <div class="year">
+                2017
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="rd3page" id="rd3page">
+      <div class="TV-shows-cont" id="TV-shows-cont">
+        <div class="title-TVshows">
+            Latest
+        </div>
+        <div class="TVS-grid">
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 01.png" alt="">
+              <div class="name">
+                American Nightmare
+              </div>
+              <div class="year">
+                2024
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 02.png" alt="">
+              <div class="name">
+                Fool Me Once
+              </div>
+              <div class="year">
+                2024
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 03.png" alt="">
+              <div class="name">
+                Yellowstone
+              </div>
+              <div class="year">
+                2018
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 04.png" alt="">
+              <div class="name">
+                Demon Slayer
+              </div>
+              <div class="year">
+                2019
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 05.png" alt="">
+              <div class="name">
+                Welcome to Samdal-ri
+              </div>
+              <div class="year">
+                2023
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 06.png" alt="">
+              <div class="name">
+                My Demon
+              </div>
+              <div class="year">
+                2023
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 07.png" alt="">
+              <div class="name">
+                Berlin
+              </div>
+              <div class="year">
+                2023 
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="TVS posters/TVS 08.png" alt="">
+              <div class="name">
+                Delicious in Dungeon
+              </div>
+              <div class="year">
+                2024
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      <div class="TV-shows-cont" id="TV-shows-cont">
+        <div class="title-MVS">
+            My list
+        </div>
+        <div class="MVS-grid">
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 01.png" alt="">
+              <div class="name">
+                All Quiet on the Western
+              </div>
+              <div class="year">
+                2022 
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 02.png" alt="">
+              <div class="name">
+                ALien
+              </div>
+              <div class="year">
+                1987
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 03.png" alt="">
+              <div class="name">
+                Joker
+              </div>
+              <div class="year">
+                2019
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 04.png" alt="">
+              <div class="name">
+                Uncharted
+              </div>
+              <div class="year">
+                2022
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 05.png" alt="">
+              <div class="name">
+                Life
+              </div>
+              <div class="year">
+                2017
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 06.png" alt="">
+              <div class="name">
+                Dune
+              </div>
+              <div class="year">
+                2022
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 07.png" alt="">
+              <div class="name">
+                Gravity
+              </div>
+              <div class="year">
+                2013 
+              </div>
+            </div>
+            <div class="cover-cntr">
+              <img class="cover" src="movies posters/MVS 08.png" alt="">
+              <div class="name">
+                Blade runner 2049
+              </div>
+              <div class="year">
+                2017
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="rd4page" id="rd4page">
+      <div>
+        <div class="title-news">
+          News To You
+        </div>
+        <div class="news-box">
+          <div class="box1">
+            <h1>The Boys season 4 filmed in Algeria ? </h1>
+            <h4>The 4th fourth season of the American superhero televisionseries the Boys. </h4>
+          </div>
+          <div class="box2">
+            <h1>Extraction 2 </h1>
+            <h4>We have finally announced a release date for Extraction 2. </h4>
+          </div>
+          <iframe style="border-radius: 25px;  margin-left: 10px;" width="800px" height="450px" src="https://www.youtube.com/embed/Y7ZgJCl62sA" title="The Witcher: Sirens of The Deep | Official Teaser | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="news-box1">
+          <iframe style="border-radius: 25px; " width="905" height="450" src="https://www.youtube.com/embed/ZoBXSuK2-qQ" title="AMV - Rosa Walton「I Really Want to Stay at Your House」（１時間） | サイバーパンク: エッジランナーズ | Netflix Japan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe style="border-radius: 25px; margin-left: 10px;" width="905" height="450" src="https://www.youtube.com/embed/iM150ZWovZM" title="Damsel | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="news-box2">
+          <div class="box6">
+            <h1>Netflix The King </h1>
+            <h4>Actors And Character Guide </h4>
+          </div>
+          <div class="box7">
+            <h1>Netflix Android </h1>
+            <h4>ColdFix Version 2.01 has been released. </h4>
+          </div>
+          <iframe style="border-radius: 25px; margin-left: 10px;" width="800" height="450" src="https://www.youtube.com/embed/83o8_ZuKMik" title="The Witcher: Nightmare of the Wolf | Official Teaser | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="end-of-page">
+      <div class="end-bar">
+        <div class="left-sec">
+          <button class="btns-h-long-end">Utilities</button>
+          <button class="btns-h-long-end">Categories</button>
+          <button class="btns-h-long-end">Popular links</button>
+          <button class="btns-h-long-end">Follow Netflix</button>
+          <button class="btns-h-long-end">Updates</button>
+        </div>
+
+        <div class="right-sec">
+          <div class="btns-h-long-end-C">&copy; 2024 Netflix</div>
+        </div>
+                  
+        </div>
+        <div class="line-1"></div>
+      </div>
+    </div>
+
+    <div class="netflix-logo-end">
+      <img style="width: 200px;" src="logos/Logonetflix.png" alt="">
+    </div>
+
+
+
+
+<!-- Slick Carousel JS -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script type="text/javascript" src="scripts/slider.js"></script>
+<script type="text/javascript" src="scripts/main_page.js"></script>
+<script type="text/javascript" src="scripts/slider_sub.js"></script>
+<script type="text/javascript" src="scripts/light-dark.js"></script>
+  
+  </body>
+</html>

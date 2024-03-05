@@ -1,0 +1,266 @@
+.rd4page{
+  margin-left: 45px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.title-news{
+  padding-top: 20px;
+  width: 240px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+  font-size: x-large;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-color: #df0707;
+}
+
+
+.box1{
+  width: 700px;
+  height: 450px;
+  border: none;
+  background-image: url(/news/01.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+
+}
+
+.box2{
+  width: 300px;
+  height: 450px;
+  border: none;
+  background-image: url(/news/02.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+  display: block;
+  position: relative;
+}
+
+.box3{
+  width: 800px;
+  height: 450px;
+  border: none;
+  background: rgb(222,9,9);
+  background: radial-gradient(circle, rgba(222,9,9,1) 0%, rgba(172,0,0,1) 100%);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.box4{
+  width: 800px;
+  height: 400px;
+  border: none;
+  background: rgb(222,9,9);
+  background: radial-gradient(circle, rgba(222,9,9,1) 0%, rgba(172,0,0,1) 100%);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.box5{
+  width: 1010px;
+  height: 400px;
+  border: none;
+  background: rgb(168,167,167);
+  background: radial-gradient(circle, rgba(168,167,167,1) 0%, rgba(103,103,103,1) 100%);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.box7{
+  width: 700px;
+  height: 450px;
+  border: none;
+  background-image: url(/news/04.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+}
+
+.box6{
+  width: 300px;
+  height: 450px;
+  border: none;
+  background-image: url(/news/03.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+}
+
+.news-box{
+  display: flex;
+  direction: row;
+}
+
+.news-box1{
+  display: flex;
+  direction: row;
+  margin-top: 10px;
+}
+
+.news-box2{
+  margin-top: 10px;
+  display: flex;
+  direction: row;
+}
+
+.end-of-page{
+  color: white;
+  font-family: "Kanit", sans-serif;
+  font-size: medium;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+
+.btns-h-long-end{
+  margin-top: 20px;
+  height: 40px;
+  width: 150px;
+  font-family: "Rubik", sans-serif;
+  font-size: medium;
+  border: none;
+  color: rgb(177, 177, 177);
+  background-color:  rgba(0,0,0,0);
+  cursor: pointer;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0,0,0,0);
+  transition: color 0.5s,border-bottom-color 0.5s,margin-right 0.7s, font-weight 0.5s;
+  font-weight: 400;
+  margin-right: 30px;
+}
+
+.btns-h-long-end-C{
+  margin-top: 20px;
+  height: 40px;
+  width: 150px;
+  font-family: "Rubik", sans-serif;
+  font-size: medium;
+  border: none;
+  color: rgb(177, 177, 177);
+  background-color:  rgba(0,0,0,0);
+  border-bottom-style: solid;
+  border-bottom-color: rgba(0,0,0,0);
+  transition: color 0.5s,border-bottom-color 0.5s,margin-right 0.7s, font-weight 0.5s;
+  font-weight: 400;
+  margin-right: 30px;
+}
+
+.line-1 {
+  margin-left: 20px;
+  width: 97%;
+  height: 1px;
+  margin-right: 20px;
+  background: rgb(177, 177, 177);
+}
+
+.netflix-logo-end{
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.end-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box1 h1{
+ 
+  margin-left: 20px;
+  position: absolute;
+  bottom: 80px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.box1 h4{
+  margin-left: 20px;
+  position: absolute;
+  bottom: 40px;
+  color: rgb(232, 232, 232);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+
+.box2 h1{
+ 
+  margin-left: 20px;
+  position: absolute;
+  bottom: 85px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.box2 h4{
+  margin-left:20px;
+  position: absolute;
+  bottom: 30px;
+  color: rgb(232, 232, 232);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+
+.box7 h1{
+ 
+  margin-left: 30px;
+  position: absolute;
+  bottom: 55px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.box7 h4{
+  margin-left:30px;
+  position: absolute;
+  bottom: 10px;
+  color: rgb(232, 232, 232);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+
+.box6 h1{
+ 
+  margin-left: 30px;
+  position: absolute;
+  bottom: 55px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.box6 h4{
+  margin-left:30px;
+  position: absolute;
+  bottom: 10px;
+  color: rgb(232, 232, 232);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}

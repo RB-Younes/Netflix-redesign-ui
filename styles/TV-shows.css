@@ -1,0 +1,70 @@
+.TV-shows-cont{
+  overflow: hidden;
+}
+.nd2page{
+  margin-left: 45px;
+  margin-top: 1020px;
+  margin-bottom: 60px;
+  color: white;
+}
+
+.rd3page{
+  margin-left: 45px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+
+
+.title-TVshows,.title-MVS{
+  width: 240px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-family: "Kanit", sans-serif;
+  font-size: x-large;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-color: #df0707;
+}
+
+.title-MVS{
+  padding-top: 20px;
+}
+
+.TVS-grid{
+  display: flex;
+  flex-direction: row;
+}
+
+.MVS-grid{
+  display: flex;
+  flex-direction: row;
+}
+
+.cover{
+   width: 200px;
+   transition: transform 0.4s;
+   cursor: pointer;
+}
+
+.cover:hover {
+  transform: scale(1.1); 
+}
+
+.name{
+  margin-top: 10px;
+  padding-left: 5px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-bottom: -5px;
+}
+
+.year {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  color: grey;
+  padding-left: 5px;
+}
